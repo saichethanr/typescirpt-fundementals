@@ -35,3 +35,16 @@ console.log(fres)
 let sum = numlist.reduce((acc,num) => acc +num);
 console.log(sum)
 
+
+
+//enum -once code is compled we dont need enums
+const enum color {
+    red,
+    green,
+    blue
+}
+
+let c : color = color.blue;
+
+
+//tuples

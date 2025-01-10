@@ -28,3 +28,4 @@ console.log(fres);
 //using the reduce for accumulation
 let sum = numlist.reduce((acc, num) => acc + num);
 console.log(sum);
+let c = 2 /* blue */;
