@@ -18,3 +18,20 @@ let result = parseFloat(dob);
 //boolean
 let bool : boolean = true; //its not definned when declared to false -- this is due to strict = true in the .json
 console.log(bool); // the bool is not beeing asigned
+
+//array
+let emplist : string[];
+let deplist : Array<string>;
+emplist = ["sai" ,"chethan" , "karim"]
+let numlist : Array<number>;
+numlist = [1,2,3,4,5]
+
+let res = numlist.filter((num)=> num>2);
+
+let fres = emplist.find((emp)=> emp==="santosh");
+console.log(fres)
+
+//using the reduce for accumulation
+let sum = numlist.reduce((acc,num) => acc +num);
+console.log(sum)
+
