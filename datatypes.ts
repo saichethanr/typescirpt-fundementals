@@ -37,7 +37,7 @@ console.log(sum)
 
 
 
-//enum -once code is compled we dont need enums
+//enum -once code is compled we dont need enums  -- so define it as a const
 const enum color {
     red,
     green,
@@ -48,3 +48,33 @@ let c : color = color.blue;
 
 
 //tuples
+//use tuples to swap two numbers 
+
+let swapnums : [number,number];
+function swapnumbers(num1:number,num2:number) : [number,number]{
+    return [num2,num1];
+}
+
+swapnums = swapnumbers(10,20);
+swapnums[0];
+swapnums[1];
+
+//tuples can be helpful at -- incase function return multiple values
+let department : any;
+department = "IT";
+department = 10;
+//try to avoid any -- in the config noIMplicit any true which will not let you use any by default
+
+function addnum(num1 : number , num2 : number) : any {
+    return num1 + num2;
+}
+
+let data;
+//even if not defined then it will take the type of any
+
+//void 
+//never 
+
+
+//before that we will go through functions 
+
